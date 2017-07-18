@@ -1,4 +1,7 @@
-@media only screen and (max-device-width: 736px) {
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ration: 2) {
 
   a {
     font-size: 20px;
@@ -69,8 +72,8 @@ footer {
 }
 
 #video {
-  width: 560;
-  height: 315;
+  width: 560px;
+  height: 315px;
 }
 
 .flex-container {
